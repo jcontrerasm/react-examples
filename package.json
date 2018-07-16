@@ -1,0 +1,38 @@
+{
+  "name": "react-examples",
+  "version": "1.0.0",
+  "description": "Ejemplos en React",
+  "main": "/public/app.js",
+  "scripts": {
+    "build": "webpack --colors --progress",
+    "server": "webpack-dev-server --colors --progress --mode development --open",
+    "start": "npm run build && npm run serve",
+    "prod": "webpack -p"
+  },
+  "author": "Juan Contreras <jcontrerasmeneses@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "json-loader": "^0.5.7",
+    "react-hot-loader": "^4.2.0",
+    "style-loader": "^0.21.0",
+    "typescript": "^2.9.2",
+    "webpack": "^4.12.1",
+    "webpack-cli": "^3.0.1",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "dependencies": {
+    "@types/react": "^16.4.1",
+    "@types/react-dom": "^16.0.6",
+    "@types/recompose": "^0.26.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-refetch": "^1.0.4",
+    "recompose": "^0.27.1"
+  }
+}
